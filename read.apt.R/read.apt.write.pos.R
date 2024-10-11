@@ -42,6 +42,7 @@ writeposR(
   ),
   paste0(file_path_sans_ext(fn),".pos")
 )
+cat(".pos file has been successful saved")
 
 # Clear space in global env
 rm(list = ls())
